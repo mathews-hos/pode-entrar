@@ -9,7 +9,37 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 </head>
 
-<body>
+<body data-bs-theme="dark">
+    <div class="container-fluid">
+        <div class="row">
+            <span class="col-1 btn" onclick="alternate()">aeee</span>
+        </div>
+    </div>
+    <form class="container my-5" action="">
+        <div class="row my-3">
+            <div class="col">
+                <label class="form-label" for="input-datebirth">nascimento</label>
+                <input class="form-control" id="input-datebirth" type="date">
+            </div>
+            <div class="col">
+                <label class="form-label" for="input-renda">renda total</label>
+                <input class="form-control" id="input-renda" type="text">
+            </div>
+            <div class="col">
+                <label class="form-label" for="input-peopletogether">pessoas que moram com você</label>
+                <input class="form-control" id="input-peopletogether" type="text">
+            </div>
+
+        </div>
+
+        <div class="row  justify-content-end">
+            <div class="col-12 mb-3 ">
+                <label class="form-label" for="output">:D</label>
+                <input class="form-control readonly" id="output" type="text" readonly>
+            </div>
+            <button class="btn btn-outline-secondary col-3">cadastrar</button>
+        </div>
+    </form>
 
     <script src="js/script.js"></script>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
