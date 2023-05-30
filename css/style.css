@@ -1,4 +1,10 @@
 nav {
     border-top: 3px solid #f7941d;
-    background-color: #004a8d;
+    background-color: #004a8d !important;
 }
+
+/* 
+.navbar-toggler.collapsed .navbar-toggler-icon,
+.navbar-toggler .navbar-toggler-icon {
+    filter: invert(1);
+} */
