@@ -1,4 +1,4 @@
-nav {
+#navtop {
     border-top: 3px solid #f7941d;
     background-color: #004a8d !important;
 }
@@ -16,7 +16,7 @@ nav {
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #E06410;
     --bs-btn-hover-border-color: #E06410;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #E06410;
     --bs-btn-active-border-color: #E06410;
@@ -27,9 +27,14 @@ nav {
 }
 
 #busca-header {
-    padding-left: 40px;
+    /* padding-left: 40px; */
     background: no-repeat url("../img/search.png") 15px;
 }
-#busca-group{
+
+#busca-group {
     height: 60px;
+}
+
+#nav-baixo {
+    border
 }
