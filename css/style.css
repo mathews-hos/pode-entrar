@@ -38,3 +38,9 @@
 footer {
     background-color: #004a8d;
 }
+
+#iconlocal {
+    mask: url(/img/icons/map-marker-alt-solid.svg) no-repeat center;
+    -webkit-mask: url(/img/icons/map-marker-alt-solid.svg) no-repeat center;
+    background-color: #f7941d
+}
