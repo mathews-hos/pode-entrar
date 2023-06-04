@@ -1,5 +1,5 @@
 #navtop {
-    border-top: 3px solid #f7941d;
+    border-top: 2px solid #f7941d;
     background-color: #004a8d !important;
 }
 
@@ -36,6 +36,8 @@
 }
 
 footer {
+    
+    border-bottom: 2px solid #f7941d;
     background-color: #004a8d;
 }
 
@@ -43,4 +45,46 @@ footer {
     mask: url(/img/icons/map-marker-alt-solid.svg) no-repeat center;
     -webkit-mask: url(/img/icons/map-marker-alt-solid.svg) no-repeat center;
     background-color: #f7941d
+}
+
+.linetop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7941d;
+    height: 2px;
+}
+.linebottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7941d;
+    height: 2px;
+}
+
+
+
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #004a8d var(--);
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--bs-secondary-bg);
+    border-bottom: 2px solid #f7941d;
+    border-top: 2px solid #f7941d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #004a8d;
+  border-radius: 0;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #002f5a;
 }
