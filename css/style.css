@@ -1,3 +1,17 @@
+:root[data-bs-theme="dark"] {
+    --bs-bluee: rgb(117, 203, 255);
+}
+
+:root[data-bs-theme="light"]{
+    --bs-bluee: #004d7c;
+    
+} 
+
+@font-face {
+    font-family: 'sanchez' ;
+    src: url(../font/Sanchez-Regular.ttf);
+}
+
 #navtop {
     border-top: 2px solid #f7941d;
     background-color: #004a8d !important;
@@ -92,6 +106,13 @@ footer {
     width: 100%;
     background-color: #f7941d;
     height: 2px;
+}
+
+#toptitle {
+    font-family: 'sanchez';
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-bluee);
+
 }
 
 
